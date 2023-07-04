@@ -42,3 +42,7 @@ Any succesfully resolved mDNS search will return the hostname, IP address, port,
 There are 2 modes in this app, specific search, and general search. Specific search will look for a specific mDNS services that is supplied before the start of the search. General search, on the other hand, will look into all available services in the network.
 
 {% include gallery id="gallery_mdns"%}
+
+## Other Apps
+
+[![alt-text-1](/assets/images/app_icon/logo_controller.png)](/portfolio/controller) | [![alt-text-2](/assets/images/app_icon/logo_websocket.png)](/portfolio/websocket)

@@ -41,3 +41,7 @@ Source control with Git has been applied while working in this project. This to 
 [GitHub Project Page](https://github.com/invoklab/InvokController)
 
 {% include gallery id="gallery_controller"%}
+
+## Other Apps
+
+[![alt-text-1](/assets/images/app_icon/logo_mdns.png)](/portfolio/mdns) | [![alt-text-2](/assets/images/app_icon/logo_websocket.png)](/portfolio/websocket)

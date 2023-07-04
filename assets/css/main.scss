@@ -6,7 +6,8 @@ search: false
 @charset "utf-8";
 
 $link-color: yellow;
-// $background-color: black;
+$buttoncolor: yellow;
+$primary-color: yellow;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

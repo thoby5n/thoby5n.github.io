@@ -43,3 +43,7 @@ I have also written a firmware for ESP microcontroller to act as a WebSocket ser
 [GitHub Project Page](https://github.com/invoklab/WebSocket-Tester)
 
 {% include gallery id="gallery_ws"%}
+
+## Other Apps
+
+[![alt-text-1](/assets/images/app_icon/logo_controller.png)](/portfolio/controller) | [![alt-text-2](/assets/images/app_icon/logo_mdns.png)](/portfolio/mdns)
