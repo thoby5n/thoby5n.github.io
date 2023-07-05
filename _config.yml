@@ -105,7 +105,6 @@ analytics:
 # Site Author
 author:
   name             : "Thoby Noorhalim"
-  # image            : "/assets/images/thoby.jpg"
   avatar           : "/assets/images/thoby.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Engineer, Maker, Software Developer"
   location         : "Indonesia"
