@@ -33,6 +33,8 @@ gallery_controller:
 
 Controller is the first mobile app i have ever developed after completing tutorials on Dart and Flutter programming. The requirement of this app was to be able to control ESP based microcontroller remotely using mobile phone. This app should also be compatible with both version of ESP, ESP8266 and ESP32.
 
+Controller is the first mobile app i have ever developed after completing tutorials on Dart and Flutter programming. The requirement of this app was to be able to control ESP based microcontroller remotely using mobile phone. This app should also be compatible with both version of ESP, ESP8266 and ESP32.
+
 There are two main components of this project, the mobile app development using Dart and Flutter framework, and the library development using C/C++ for the microcontroller. To be able to use this app, user would need to use the library written specifically for communication with the Controller app.
 
 Source control with Git has been applied while working in this project. This to ensure that i would always be able to go back to the previous version, in case bugs are discovered.
