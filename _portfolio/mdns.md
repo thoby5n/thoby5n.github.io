@@ -2,7 +2,7 @@
 title: "mDNS Discovery"
 excerpt: "Discover any available mDNS service in your local network."
 header:
-  image: /assets/images/app_icon/logo_mdns.png
+  # image: /assets/images/app_icon/logo_mdns.png
   teaser: /assets/images/app_icon/logo_mdns.png
 tags:
   - Mobile Application
@@ -11,7 +11,7 @@ tags:
   - mDNS
 sidebar:
   - title: "Role"
-    image: 
+    image: /assets/images/app_icon/logo_mdns.png
     image_alt: "logo"
     text: "Programmer"
   - title: "Skills"

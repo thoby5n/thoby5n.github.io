@@ -2,7 +2,7 @@
 title: "WebSocket Tester"
 excerpt: "WebSocket client app to test WebSocket server "
 header:
-  image: /assets/images/app_icon/logo_websocket.png
+  # image: /assets/images/app_icon/logo_websocket.png
   teaser: /assets/images/app_icon/logo_websocket.png
 tags:
   - Flutter
@@ -10,7 +10,7 @@ tags:
   - Mobile Application
 sidebar:
   - title: "Role"
-    image: 
+    image: /assets/images/app_icon/logo_websocket.png
     image_alt: "logo"
     text: "Programmer"
   - title: "Skills"

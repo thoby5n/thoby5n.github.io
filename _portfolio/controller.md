@@ -2,7 +2,7 @@
 title: "Controller"
 excerpt: "Mobile application to control ESP based microcontroller device"
 header:
-  image: /assets/images/app_icon/logo_controller.png
+  # image: /assets/images/app_icon/logo_controller.png
   teaser: /assets/images/app_icon/logo_controller.png
 tags:
   - Flutter
@@ -10,7 +10,7 @@ tags:
   - Mobile Application
 sidebar:
   - title: "Role"
-    image: 
+    image: /assets/images/app_icon/logo_controller.png
     image_alt: "logo"
     text: "Programmer"
   - title: "Skills"

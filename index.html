@@ -5,14 +5,15 @@ author_profile: true
 
 <style>
 .headingBorder {
-    border-width:3px;
+    border-width:0px;
     border-style:solid;
     border-color:yellow;
     padding: 5px;
+    color: yellow;
 }
 .bodyStyle {
     font-size: medium;
-    text-align:justify
+    text-align:justify;
 }
 .h1Style {
     color: yellow;
@@ -23,13 +24,26 @@ author_profile: true
 
 .row {
   display: flex;
+  align-items: top;
 }
 
-/* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.column1 {
+    float: left;
+}
+
+.left {
+    width: 25%;
+    padding: 2%;
+}
+
+.right {
+    width: 75%;
 }
 </style>
 
@@ -48,7 +62,9 @@ author_profile: true
 During my work at Invok Lasercraft, i managed day to day operation of the business.
 I ensure that machines are always ready for use to serve customers order. Some machines and
 tools that are available in the workshop are CO2 laser cutting machine, 3D printer, vinyl cutter,
- and soldering station. I run this business just like a local makerspace, providing not only finished
+ and soldering station.
+ <br><br>
+ I run this business just like a local makerspace, providing not only finished
  product but also an experience, and place for learning for makers in the city.
 </p>
 
@@ -80,7 +96,7 @@ on the line that i designed.
 My very first professional role as an engineer was with Ishaan. I was employed as an Embedded
 System Engineer. My job was to maintain firmware of the IoT devices on development, design, and
  also create multiple prototype of the device.
-
+ <br><br>
  As a part of a team, i was also responsible for the development of new features, such as 
  wireless charging through NFC feature of the device. 
 </p>
@@ -88,22 +104,49 @@ System Engineer. My job was to maintain firmware of the IoT devices on developme
 
 
 <h1 class="h1Style"> Relevant Projects </h1>
+<h2 class="h1Style"> Smart Home </h1>
+
+<div class="row">
+    <div class="colum1 left">
+        <body>
+            <img src="/assets/images/ha-icon.png" alt="Home Assistant"></a>
+        </body>
+    </div>
+    <div class="column1 right">
+        <p class="bodyStyle">
+            Home Assistant is my to go platform for smart home integration. I run Home Assistant 
+            on Docker in Raspberry Pi 4. I chose Home Assistant because i am able to integrate 
+            smart devices from different brands into one platform. This way, i don't have to open 
+            multiple apps if i want to control or get data from sensors of different brand. 
+            <br><br>
+            Recently i have also added Zigbee coordinator to Home Assistant. This enables me to 
+            move zigbee devices previously tied to specific brand platform into Home Assistant. 
+            I get almost no device downtime now compared to the previous configuration. 
+            <br><br>
+            Another advantage of using Home Assistant is that i can expose the devices on Home 
+            Assistant to Apple Home platform, a big win for iOS users. I can now also use Siri to 
+            control my home devices.
+        </p>
+    </div>
+</div>
+
+
 <h2 class="h1Style"> Flutter App Development </h1>
 
 <div class="row">
     <div class="column">
         <body>
-            <a href="portfolio/controller"><img src="/assets/images/app_icon/logo_controller.png" alt="HTML tutorial"></a>
+            <a href="portfolio/controller"><img src="/assets/images/app_icon/logo_controller.png" alt="Controller"></a>
         </body>
     </div>
     <div class="column">
         <body>
-            <a href="portfolio/websocket"><img src="/assets/images/app_icon/logo_websocket.png" alt="HTML tutorial"></a>
+            <a href="portfolio/websocket"><img src="/assets/images/app_icon/logo_websocket.png" alt="WebSocket"></a>
         </body>
     </div>
     <div class="column">
         <body>
-            <a href="portfolio/mdns"><img src="/assets/images/app_icon/logo_mdns.png" alt="HTML tutorial"></a>
+            <a href="portfolio/mdns"><img src="/assets/images/app_icon/logo_mdns.png" alt="mDNS"></a>
         </body>
     </div>
 </div>
